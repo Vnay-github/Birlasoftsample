@@ -1,0 +1,9 @@
+This is the first line typed by MS Vinay
+
+Git Commands:
+
+git init - to initialize the git local repo
+git status - to check the status of the files tracked/untracked
+git add . - add all the files to be tracked. 
+git commit -m "message" - to save the files in the local copy(git)
+git remote add origin <url> - to connect the remote repo(github repo) and the local repo(git repo).

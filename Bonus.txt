@@ -1,0 +1,14 @@
+create table Bonus
+(
+WORKER_REF_ID int,
+BONUS_DATE datetime,
+BONUS_AMOUNT float
+);
+
+insert into Bonus values(1,'2016-02-20 00:00:00',5000);
+insert into Bonus values(2,'2016-06-11 00:00:00',3000);
+insert into Bonus values(3,'2016-02-20 00:00:00',4000);
+insert into Bonus values(1,'2016-02-20 00:00:00',4500);
+insert into Bonus values(2,'2016-06-11 00:00:00',3500);
+
+select * from Bonus;
